@@ -1,0 +1,12 @@
+server :
+ port: 8081
+spring:
+ cloud:
+   config:
+     server:
+       git:
+         default-label: config-server #nombre de la rama en la que se ve trabajar en este royecto
+         uri: https://github.com/jose4654/config_server.git
+         search-paths: config-data  #la carpeta donde van a estar los archivos
+ application:
+    name: config-service
