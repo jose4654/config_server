@@ -1,10 +1,10 @@
-package com.todocodeacademy.configserver;
+package com.todocodeacademy.eurekasv;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ConfigServerApplicationTests {
+class EurekaSvApplicationTests {
 
 	@Test
 	void contextLoads() {
